@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",        // path to output directory
+        "sourceMap": true,          // allow sourcemap support
+        "strictNullChecks": true,   // enable strict null checks as a best practice
+        "module": "commonjs",       // specifiy module code generation
+        "jsx": "react",             // use typescript to transpile jsx to js
+        "target": "es5",            // specify ECMAScript target version
+        "allowJs": true,            // allow a partial TypeScript and JavaScript codebase 
+        "noImplicitAny": false,      // ... no idea ...
+        "moduleResolution": "node", // Allowing for loading node modules
+        "baseUrl": ".",             // Specify a base path for module, script and type pathings
+        "paths": {                  // Specifiy paths for module, script and type resolution
+            "*": [
+                "node_modules/*",
+                "src/types/*"
+            ]
+        },
+        "typeRoots": [
+            "node_modules/@types"
+        ],
+        "types": [
+            "node"
+        ]
+    },
+    "include": [
+        "./src/**/*"
+    ]
+}

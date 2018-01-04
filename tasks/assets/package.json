@@ -1,0 +1,29 @@
+{
+  "name": "update_hosts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "exec": "node ./dist/app.js",
+    "watch": "nodemon ./dist/app.js",
+    "build": "npm run deleteDist && tsc && npm run copyToDist",
+    "build.watch": "npm run build && npm run watch",
+    "build.exec": "npm run build && npm run exec",
+    "deleteDist": "node ./tasks/deleteDist.js",
+    "copyToDist": "node ./tasks/copyToDist.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^8.0.53",
+    "nodemon": "^1.12.1",
+    "shelljs": "^0.7.8",
+    "shx": "^0.2.2",
+    "tslint": "^5.8.0",
+    "typescript": "^2.6.2"
+  },
+  "dependencies": {
+    "node": "^9.2.0",
+    "yargs": "^10.0.3"
+  }
+}
