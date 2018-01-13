@@ -1,7 +1,8 @@
 const { spawn } = require('child_process');
 
 const spawnOpts = {
-    stdio: [ 'inherit', 'inherit', 'inherit' ]
+    stdio: [ 'inherit', 'inherit', 'inherit' ],
+    shell: true
 };
 
 const commands = [
