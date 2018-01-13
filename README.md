@@ -31,19 +31,19 @@ This project is a minimum set of dependencies for writing NodeJS app using Types
     ```
     ... which does the following ... 
     ```
-    // Initialize a new node project
+    // Initialize a new node project.
     npm init 
 
-    // Install some provided dependencies and scripts
+    // Install some provided dependencies and scripts.
     node tasks/initProject.js 
 
-    // Install a basic igonre file
+    // Install a basic igonre file.
     cp tasks/assets/.gitignore ./
 
     // Install a basic tsconfig for compiling the Typescript source files.
     cp tasks/assets/tsconfig.json ./
 
-    // Install the provided dependencies
+    // Install the provided dependencies.
     npm i
 
     // Initialize a new git repo and commit your new project.
