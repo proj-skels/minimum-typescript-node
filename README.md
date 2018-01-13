@@ -40,7 +40,7 @@ This project is a minimum set of dependencies for writing NodeJS app using Types
     // Install a basic igonre file
     cp tasks/assets/.gitignore ./
 
-    // Install a basci tsconfig for compiling the Typescript source files.
+    // Install a basic tsconfig for compiling the Typescript source files.
     cp tasks/assets/tsconfig.json ./
 
     // Install the provided dependencies
