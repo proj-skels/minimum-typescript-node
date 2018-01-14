@@ -31,11 +31,17 @@ This project is a minimum set of dependencies for writing NodeJS app using Types
     ```
     ... which does the following ... 
     ```
-    // Initialize a new node project.
+    // Install shx dependency for the init process.
+    npm i
+
+    // Blow away the source repo information
+    shx rm -rf ./.git // Executed via 'npm run delete.git' in the initial package.json
+
+    // Initialize a new node starter project
     npm init 
 
     // Install some provided dependencies and scripts.
-    node tasks/initProject.js 
+    node tasks/setupProjectFiles.js 
 
     // Install a basic igonre file.
     cp tasks/assets/.gitignore ./
@@ -43,7 +49,7 @@ This project is a minimum set of dependencies for writing NodeJS app using Types
     // Install a basic tsconfig for compiling the Typescript source files.
     cp tasks/assets/tsconfig.json ./
 
-    // Install the provided dependencies.
+    // Install the provided starter project dependencies.
     npm i
 
     // Initialize a new git repo and commit your new project.
