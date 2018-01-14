@@ -4,7 +4,9 @@
   "description": "This project is a minimum set of dependencies for writing NodeJS app using Typescript.",
   "main": "app.js",
   "scripts": {
-    "delete.git": "shx rm -rf ./.git"
+    "delete.git": "shx rm -rf ./.git",
+    "delete.readme": "shx rm ./README.md",
+    "create.readme": "shx touch README.md"
   },
   "author": "",
   "license": "ISC",
