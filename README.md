@@ -18,13 +18,13 @@ This project is a minimum set of dependencies for writing NodeJS app using Types
 1.  Clone the repo.
     ```
     // via HTTPS
-    git clone https://github.com/proj-skels/minimum-typescript-node.git
+    git clone https://github.com/proj-skels/minimum-typescript-node.git <your_project_name>
     
     // via SSH
-    git clone git@github.com:proj-skels/minimum-typescript-node.git
+    git clone git@github.com:proj-skels/minimum-typescript-node.git <your_project_name>
     ```
 
-2.  From your new repo directory run ...
+2.  From your new project directory run ...
     
     ```
     node tasks/init.js
