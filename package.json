@@ -1,0 +1,14 @@
+{
+  "name": "init",
+  "version": "1.0.0",
+  "description": "This project is a minimum set of dependencies for writing NodeJS app using Typescript.",
+  "main": "app.js",
+  "scripts": {
+    "delete.git": "shx rm -rf ./.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "shx": "^0.2.2"
+  }
+}

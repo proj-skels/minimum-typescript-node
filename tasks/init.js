@@ -6,11 +6,13 @@ const spawnOpts = {
 };
 
 const commands = [
+    'npm i', // Install shx for init scripts
+    'npm run delete.git',
     'npm init',
-    'node tasks/initProject.js',
+    'node tasks/setupProjectFiles.js',
     'cp tasks/assets/.gitignore ./',
     'cp tasks/assets/tsconfig.json ./',
-    'npm i',
+    'npm i', // Install initial project deps
     'git init',
     'git add .',
     'git commit -m "Initial commit."'
