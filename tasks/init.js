@@ -8,6 +8,8 @@ const spawnOpts = {
 const commands = [
     'npm i', // Install shx for init scripts
     'npm run delete.git',
+    'npm run delete.readme',
+    'npm run create.readme',
     'npm init',
     'node tasks/setupProjectFiles.js',
     'cp tasks/assets/.gitignore ./',
